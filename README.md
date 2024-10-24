@@ -1,6 +1,6 @@
 # Knapsack Problem Solver
 
-This repository contains a Python implementation of the **Knapsack problem** using dynamic programming. The goal is to maximize the value of items you can carry in a knapsack with a fixed weight capacity, while considering constraints on the number of copies you can take for each item.
+This repository contains a short Python implementation of the **Knapsack problem**. The goal is to maximize the value of items you can carry in a knapsack with a fixed weight capacity, while considering constraints on the number of copies you can take for each item.
 
 ### How It Works
 The solver addresses the **0-1 knapsack** problem with an added twist: it allows up to **two copies** of each item. The dynamic programming algorithm builds a table that tracks the maximum value achievable for every possible capacity from 0 to the specified max capacity.
@@ -47,7 +47,3 @@ The solver addresses the **0-1 knapsack** problem with an added twist: it allows
 - Extend the algorithm to handle **multiple copies** beyond 2, allowing more flexibility in how items can be packed.
 - Add a **user input feature** to specify values, weights, and capacities manually.
 - Implement a **graphical visualization** for the table-building process.
-
-### Technologies Used
-- Python 3
-- Random module for test data generation
